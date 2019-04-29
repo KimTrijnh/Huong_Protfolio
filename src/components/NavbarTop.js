@@ -34,12 +34,12 @@ class NavbarTop extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#pablo" onClick={this.props.toggleAbout}>
+                <NavLink href="#about" onClick={this.props.toggleAbout}>
                   About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#pablo" onClick={this.props.toggleContact}>
+                <NavLink href="#contact" onClick={this.props.toggleContact}>
                   Contact
                 </NavLink>
               </NavItem>
