@@ -30,7 +30,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 500px;
+  max-width: 500px;
   height: 100vh;
   transition: width 7s linear 1s;
   z-index: 1;
@@ -76,3 +76,5 @@
 .text-md {
   font-size: 1.2rem;
 }
+
+

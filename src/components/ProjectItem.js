@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Modals.css'
 
 const ProjectItem = (props) =>
@@ -7,7 +7,7 @@ const ProjectItem = (props) =>
   return(
   <div className="project-item card">
   <div className="card-header">
-  <a href={ props.project.url} className="text-light">
+  <a href={ props.project.url} className="text-white">
   <h4 className="title">{ title }</h4>
   </a>
   </div>

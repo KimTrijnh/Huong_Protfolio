@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import ProjectItem from './ProjectItem';
 import "./Modals.css"
+import ProjectItem from './ProjectItem';
 
 export default class ProjectContainer extends Component {
     constructor(){
@@ -27,13 +27,13 @@ export default class ProjectContainer extends Component {
       const {isLoading, projects} = this.state
       let selectedProjects = []
       if(projects) {
-        selectedProjects = projects.filter((project) => project.name.slice(0,7) == 'project')
+        selectedProjects = projects.filter((project) => project.name.slice(0,7) === 'project')
       }
     return (
       <ul className="list-unstyled scrolling-box">
         { isLoading ? <h4 className="lead text-center">Loading...</h4> :
          selectedProjects.map( project =>
-         <ProjectItem project={project} />
+         <ProjectItem project={project} key={project.name} />
          )
         }
       </ul>

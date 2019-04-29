@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Avatar from "./Avatar";
 
 import {
@@ -20,10 +20,10 @@ class NavbarTop extends React.Component {
         <NavbarBrand href="https://github.com/KimTrijnh" target="blank">
             <Avatar text="Huong's Porfolio" />
           </NavbarBrand>
-          <button aria-expanded="false" class="navbar-toggler navbar-toggler" id="navbarNav" type="button">
-            <span class="navbar-toggler-bar bar1" />
-            <span class="navbar-toggler-bar bar2" />
-            <span class="navbar-toggler-bar bar3" />
+          <button aria-expanded="false" className="navbar-toggler navbar-toggler" id="navbarNav" type="button">
+            <span className="navbar-toggler-bar bar1" />
+            <span className="navbar-toggler-bar bar2" />
+            <span className="navbar-toggler-bar bar3" />
           </button>
           
           <UncontrolledCollapse navbar toggler="#navbarNav">

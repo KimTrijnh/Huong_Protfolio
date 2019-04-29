@@ -29,12 +29,13 @@ export default class SideModal extends Component {
           onClick={this.toggleModal}
         >
           <span>PROJECT</span>
-        </button>      
+        </button>
+        <div className="row">
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
-          className="Modal"
+          className="Modal col-md-3 col-sm-12"
           overlayClassName="Overlay"
         >
         <div className="modal-content bg-transparent text-white pt-5">
@@ -44,6 +45,8 @@ export default class SideModal extends Component {
         <ProjectContainer projects={this.state.projects} />
         </div>        
         </Modal>
+        </div>      
+        
       </div>
     );
   }
