@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 import "./Modals.css"
+import { css } from '@emotion/core';
+import { RiseLoader } from 'react-spinners';
 import ProjectItem from './ProjectItem';
+
+const override = css`
+    display: block;
+    margin: 0 auto;
+`;
 
 export default class ProjectContainer extends Component {
     constructor(){
@@ -31,7 +38,15 @@ export default class ProjectContainer extends Component {
       }
     return (
       <ul className="list-unstyled scrolling-box">
-        { isLoading ? <h4 className="lead text-center">Loading...</h4> :
+        { isLoading ? <h4 className="text-center mt-5">
+        <RiseLoader
+          css={override}
+          sizeUnit={"px"}
+          size={18}
+          color={'#00C7D9'}
+          loading={isLoading}
+        />
+        </h4> :
          selectedProjects.map( project =>
          <ProjectItem project={project} key={project.name} />
          )
