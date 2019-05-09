@@ -14,7 +14,7 @@ const AboutModal = props => {
       <div className="row d-flex justify-content-center">
       <h1 className="display-3 col-sm-8 col-md-3">Hello, My name is Huong.</h1>
           <p className="lead text-md col-sm-8 col-md-3 my-2">
-          I'm used to be a Chemical Engineer, but found my
+          I used to be a Chemical Engineer, but found my
           passion for coding and decided to dedicate my time to learn and
           practice programing. My aim is to become a full stack web developer.
         </p>
