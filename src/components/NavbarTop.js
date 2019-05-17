@@ -35,7 +35,7 @@ class NavbarTop extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#about" onClick={this.props.toggleAbout}>
-                  About
+                  My Resume
                 </NavLink>
               </NavItem>
               <NavItem>

@@ -2,7 +2,7 @@ import React from 'react'
 import './Modals.css'
 
 const ProjectItem = (props) =>
-{
+{ console.log(props.project)
   const title = props.project.name.split('-').join(' ').slice(7).toUpperCase()
   return(
   <div className="project-item card">
