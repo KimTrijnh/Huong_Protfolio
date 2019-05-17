@@ -11,15 +11,7 @@ export default class SideModal extends Component {
     };
   }
 
-  //   this.toggleModal = this.toggleModal.bind(this)
-  // }
-
-  // toggleModal() {
-  //   let isOpen = !this.state.modalIsOpen
-  //   console.log(isOpen)
-  //     this.setState({ modalIsOpen: isOpen})
-  // }
-
+ 
   
   render() {
     return (
