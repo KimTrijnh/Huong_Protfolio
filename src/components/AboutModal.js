@@ -16,7 +16,7 @@ const AboutModal = props => {
             <h1 className="text-blue">
             Hello, welcome to my resume.
             </h1>
-            <div className="text-center">
+            <div className="text-center" style={{minHeight: "450px"}}>
               <img
                 className="img-fluid"
                 src="/img/mypic.jpg"
@@ -31,9 +31,12 @@ const AboutModal = props => {
               <li>Gender: Female</li>
               <li>Email: trinhhoaihuong@gmail.com</li>
               <li>Tel: 0915.395.609</li>
+
               <li>
                 Address: Binh Trung Tay Ward, District 2, Ho Chi Minh City, Vietnam
               </li>
+              <li className="my-3"><i class="fab fa-github mr-2"></i>  <a href="https://github.com/KimTrijnh">My github</a></li>
+
             </ul>
           </div>
          
