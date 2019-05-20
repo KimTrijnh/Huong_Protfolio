@@ -41,7 +41,7 @@ const AboutModal = props => {
           </div>
          
         </div>
-        <div className="row py-4 border-bottom">
+        <div className="row py-4 border-bottom px-2">
         {/* ojective */}
         <div className="col-md-12 col-sm-12 my-3 pr-5">
           <h3 className="display-4 text-blue">Objective:</h3>
@@ -80,23 +80,23 @@ const AboutModal = props => {
           </div>  
             </div>
             {/* solf skills */}
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-6 col-sm-12 mt-4 ">
             <h4>
             <strong className="display-5 text-blue">Solf Skills</strong>
           </h4>
-          <div className="row">
+          <div className="row pl-3">
           Fluent in English. TOEIC-925
           </div>
-          <div className="row">
+          <div className="row pl-3">
           Good individual and team working
           </div>
-          <div className="row">
+          <div className="row pl-3">
           Learn fast and self-study ability 
           </div>  
-          <div className="row">
+          <div className="row pl-3">
           High responsibility
           </div> 
-          <div className="row">
+          <div className="row pl-3">
           Proactive
           </div>
 
