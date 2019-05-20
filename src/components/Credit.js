@@ -13,7 +13,7 @@ const Style = {
 const Credit = () => {
   return (
     <small style={Style}>
-    Made by me with <i className="tim-icons icon-heart-2"></i>
+    Made by Huong Trinh with <i className="tim-icons icon-heart-2"></i>
     </small>
   )
 }

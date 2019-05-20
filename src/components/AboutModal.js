@@ -42,7 +42,8 @@ const AboutModal = props => {
          
         </div>
         <div className="row py-4 border-bottom">
-        <div className="col-md-6 col-sm-12 my-3 pr-5">
+        {/* ojective */}
+        <div className="col-md-12 col-sm-12 my-3 pr-5">
           <h3 className="display-4 text-blue">Objective:</h3>
           <div className="lead text-md">
             Used to be an Engineer, a Researcher and a Technical Sales in
@@ -52,22 +53,56 @@ const AboutModal = props => {
             progression.
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 lead text-md my-3">
+        {/* skills */}
+        <div className="col-md-12 col-sm-12 lead text-md my-3">
           <h3>
             <strong className="display-4 text-blue">Skills</strong>
           </h3>
+
+          <div className="row">
+          {/* technical skills */}
+          <div className="col-md-6 col-sm-12">
+          <h4>
+            <strong className="display-5 text-blue">Technical Skills</strong>
+          </h4>
           <div className="row">
             <strong className="col-4">Front-end</strong> HTML, CSS, Bootstrap, JS, ReactJS
           </div>
           <div className="row">
             <strong className="col-4">Back-end</strong> Python, Flask, SQL
           </div>
+         
           <div className="row">
-            <strong className="col-4">Others</strong> Git, XD Design
+            <strong className="col-4">Others </strong> XD Design
           </div>
           <div className="row">
-            <strong className="col-4">Foreign Language </strong> English (TOEIC-925)
+            <strong className="col-4">Source control system</strong> Git 
+          </div>  
+            </div>
+            {/* solf skills */}
+            <div className="col-md-6 col-sm-12">
+            <h4>
+            <strong className="display-5 text-blue">Solf Skills</strong>
+          </h4>
+          <div className="row">
+          Fluent in English. TOEIC-925
           </div>
+          <div className="row">
+          Good individual and team working
+          </div>
+          <div className="row">
+          Learn fast and self-study ability 
+          </div>  
+          <div className="row">
+          High responsibility
+          </div> 
+          <div className="row">
+          Proactive
+          </div>
+
+          </div>
+          </div>
+          
         </div>
         </div>
         <div className="border-bottom py-4 text-md lead px-2">

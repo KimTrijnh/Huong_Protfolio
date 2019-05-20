@@ -24,8 +24,10 @@ export default class ContactModal extends Component {
             >
             <h3 className="text-white">Contact Me</h3>   
             </ModalHeader>
+            <div className="text-center">Please leave me a message and your email if you are interested in my profile, I’ll get back to you as soon as possible</div>
             <CardBody>
-              <Form action="mailto:kim.jshub@gmail.com" method="post" enctype="text/plain">
+              <Form action="mailto:trinhhoaihuong@gmail.com" method="post" enctype="text/plain">
+        
                 <FormGroup>
                   <Label for="email" className="text-white">Email address</Label>
                   <Input
@@ -40,7 +42,7 @@ export default class ContactModal extends Component {
                   <Label for="content" className="text-white">Your message</Label>
                   <Input type="textarea" name="text" id="content" required/>
                 </FormGroup>
-                <Button color="primary" type="submit">
+                <Button color="primary" type="submit" >
                   Send
                 </Button>
                 <Button color="success" type="reset" onClick={this.props.toggleContact}>

@@ -26,11 +26,18 @@ export default class Main extends Component {
     this.toggleContact = this.toggleContact.bind(this);
     this.toggleAbout = this.toggleAbout.bind(this);
     this.toggleModal = this.toggleModal.bind(this)
-
+    this.handleSend = this.handleSend.bind(this)
   }
 
   toggleContact() {
     this.setState({ modalContact: !this.state.modalContact });
+  }
+
+  handleSend = event => {
+    event.preventDefault()
+    this.setState({ modalContact: !this.state.modalContact });
+    alert('Thank You. I’ll get back to you as soon as possible ')
+
   }
 
   toggleAbout() {
@@ -52,18 +59,23 @@ export default class Main extends Component {
         />
         <div className="main">
           <div className="bg-img" />
-          <div className="bg-text" style={{ height: "200px" }}>
+          <div className="bg-text" style={{ height: "auto" }}>
             <Typist cursor={Cursor}>
               <h1 className="display-1">Hi, I'm Huong</h1>
               <p className="lead text-lg">Full Stack Web Developer</p>
-            </Typist>
-            <button
+              <div className="bg-blur lead text-md p-3 text-light my-2">
+               <q>First, solve the problem. Then, write the code.</q>
+               <br/> 
+               <small className="text-muted">— John Johnson</small>
+              </div>
+              <button
               className="btn btn-primary"
-              style={{ position: "absolute", bottom: 0 }}
               onClick={this.toggleModal}
             >
               My Projects
             </button>
+            </Typist>
+            
           </div>
 
           <SideModal modalIsOpen={this.state.modalIsOpen} toggleModal={this.toggleModal}/>
@@ -78,6 +90,7 @@ export default class Main extends Component {
           <ContactModal
             modalContact={this.state.modalContact}
             toggleContact={this.toggleContact}
+            handleSend={this.handleSend}
           />
           <AboutModal
             modalAbout={this.state.modalAbout}
