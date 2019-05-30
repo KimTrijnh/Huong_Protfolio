@@ -110,6 +110,9 @@ const AboutModal = props => {
             <strong className="display-4 text-blue">Education:</strong>
           </h3>
           <div className="row mt-3">
+              <strong className="col-md-2 col-sm-3">25/2/2019 – 25/5/2019:</strong> Full-stack Web Development Course - Coder School, HCM
+          </div>
+          <div className="row mt-3">
               <strong className="col-md-2 col-sm-3">1/2016 – 9/2018:</strong> Master by Research in Chemical Engineering, University Technology Petronas, Malaysia
           </div>
           <div className="row mt-3">
