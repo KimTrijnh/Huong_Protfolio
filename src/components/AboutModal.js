@@ -106,8 +106,8 @@ const AboutModal = props => {
             <strong className="col-md-2 col-sm-3">
               2/2019 – 5/2019:
             </strong>{" "}
-            Full-stack Web Development Course - Coder School, HCM <br />
             <span>
+            Full-stack Web Development Course - Coder School, HCM <br />
             1st place winner of Demo Day - <a href="https://project-charity-platform.netlify.app/">Charity platform</a>
             </span>
           </div>
