@@ -18,7 +18,7 @@ const AboutModal = props => {
               <img
                 className="img-fluid"
                 src="/img/mypic.jpg"
-                alt="my photo"
+                alt="myself"
                 width="300px"
               />
             </div>
