@@ -48,7 +48,7 @@ const AboutModal = props => {
             <div className="lead text-md">
               Used to be an Engineer, a Researcher and a Technical Sales in
               Chemical Industry but I found coding as my passion and love to
-              become a developer. Seeking for a frontend web developer position
+              become a developer. Seeking for a backend web developer position
               in an exciting and innovative company that offers room for
               progression.
             </div>
@@ -69,10 +69,10 @@ const AboutModal = props => {
                 </h4>
                 <div className="row">
                   <strong className="col-4">Front-end</strong> HTML, CSS,
-                  Bootstrap, JS, ReactJS, Vue
+                  Bootstrap, JS, ReactJS
                 </div>
                 <div className="row">
-                  <strong className="col-4">Back-end</strong> Python, Flask, SQL
+                  <strong className="col-4">Back-end</strong> Ruby on Rails, Python, Flask, SQL
                 </div>
 
                 <div className="row">
@@ -87,8 +87,8 @@ const AboutModal = props => {
                 <h4>
                   <strong className="display-5 text-blue">Solf Skills</strong>
                 </h4>
-                <div className="row pl-3">Fluent in English. TOEIC-925</div>
                 <div className="row pl-3">Good individual and team working</div>
+                <div className="row pl-3">Strong product mindset</div>
                 <div className="row pl-3">
                   Learn fast and self-study ability
                 </div>
@@ -107,6 +107,7 @@ const AboutModal = props => {
               25/2/2019 – 25/5/2019:
             </strong>{" "}
             Full-stack Web Development Course - Coder School, HCM
+            <p>1st place winner of Demo Day - <a href="https://project-charity-platform.netlify.app/">Charity platform</a></p>
           </div>
           <div className="row mt-3">
             <strong className="col-md-2 col-sm-3">1/2016 – 9/2018:</strong>{" "}
@@ -124,36 +125,14 @@ const AboutModal = props => {
           </h3>
           <div className="row mt-3">
             <div className="col-12 my-2">
-              <strong className="col-md-2 col-sm-3">01/2016 – 6/2018: </strong>{" "}
-              Graduate Assistant, Biomass processing lab, University Technology
-              Petronas, Malaysia
-            </div>
-            <div className="col-12">
-              Doing research activities in biodiesel field (2 published papers).
-              Giving lab tutorials to undergraduates. Having experience in
-              operating high tech equipments of material analysis
+              <strong className="col-md-2 col-sm-3">7/2019 – Present: </strong>{" "}
+              Ruby on Rails Backend Developer at <a href="https://employmenthero.com/">Employment Hero</a>
             </div>
           </div>
           <div className="row mt-3">
             <div className="col-12 my-2">
-              <strong className="col-md-2 col-sm-3">05/2012 – 10/2013: </strong>{" "}
-              Telesales, Mettler-Toledo Vietnam, HCMC
-            </div>
-            <div className="col-12">
-              Selling pH meter, Titrator and Lab balance. Making calls to
-              support customers and gather information. Running email campaigns
-              to promote existing products and launch new products.
-            </div>
-          </div>
-          <div className="row mt-3">
-            <div className="col-12 mt-2">
-              <strong className="col-md-2 col-sm-3">2010 – 2012: </strong> QC
-              staff, Rohto Mentholatum Vietnam, Binh Duong Factory
-            </div>
-            <div className="col-12">
-              Sampling and testing raw material. Organizing testing files,
-              chemicals and equipment of raw material session. Having knowledge
-              of GMP & GLP.
+              <strong className="col-md-2 col-sm-3">2010 – 2018: </strong>{" "}
+              Working in Chemical Industry
             </div>
           </div>
         </div>
