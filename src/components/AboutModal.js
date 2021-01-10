@@ -104,10 +104,10 @@ const AboutModal = props => {
           </h3>
           <div className="row mt-3">
             <strong className="col-md-2 col-sm-3">
-              25/2/2019 – 25/5/2019:
+              2/2019 – 5/2019:
             </strong>{" "}
-            Full-stack Web Development Course - Coder School, HCM
-            <p>1st place winner of Demo Day - <a href="https://project-charity-platform.netlify.app/">Charity platform</a></p>
+            Full-stack Web Development Course - Coder School, HCM <br />
+            1st place winner of Demo Day - <a href="https://project-charity-platform.netlify.app/">Charity platform</a>
           </div>
           <div className="row mt-3">
             <strong className="col-md-2 col-sm-3">1/2016 – 9/2018:</strong>{" "}
